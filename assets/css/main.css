@@ -1,0 +1,49 @@
+:root {
+    font-size:16px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    --bg-color-top: #fff;
+    --bg-color-bottom: #fafafa;
+    --font-color: #333;
+    --anchor-color: #f50;
+    --anchor-hover: rgb(141, 52, 7);
+    --anchor-visited: rgb(233, 135, 87);
+    --anchor-active: rgb(161, 60, 9);
+    --outline-focus: 1px solid rgb(96, 14, 151);
+    --container-width: 80vw;
+}
+html, body, .main-container-wrapper {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-color-bottom);
+}
+a {
+    text-decoration: none;
+    color: var(--anchor-color);
+}
+a:hover {
+    text-decoration: none;
+    color: var(--anchor-hover);
+}
+ a:link {
+    text-decoration: none;
+    color: var(--anchor-color);
+}
+a:active {
+    color: var(--anchor-active);
+}
+a:active {
+    color: var(--anchor-active);
+} 
+ol, ul {
+	list-style: none;
+}
+*:focus {
+    outline: var(--outline-focus);
+}
+img {
+    max-width: 100%;
+}
+
