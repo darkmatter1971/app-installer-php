@@ -2,14 +2,13 @@
     font-size:16px;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     --bg-color-top: #fff;
-    --bg-color-bottom: #fafafa;
+    --bg-color-bottom: #f1f1f1;;
     --font-color: #333;
     --anchor-color: #f50;
     --anchor-hover: rgb(141, 52, 7);
     --anchor-visited: rgb(233, 135, 87);
     --anchor-active: rgb(161, 60, 9);
     --outline-focus: 1px solid rgb(96, 14, 151);
-    --container-width: 80vw;
 }
 html, body, .main-container-wrapper {
     height: 100vh;
@@ -47,3 +46,52 @@ img {
     max-width: 100%;
 }
 
+
+.installer__wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  .installer__container {
+    width: 25rem;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 1.8rem;
+    text-align: center;
+    margin: auto;
+    border-radius: 0.40rem;
+    box-shadow: 0.02em 0.02em 0.35em rgba(100, 100, 100, 0.28);
+  }
+  .installer__header {
+    margin: 0 0 1.5em 0;
+    padding: 0;
+  }
+  .installer__description {
+    font-size: 0.9rem;
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .installer__body h3 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 1.5em 0;
+  }
+
+  .page_language select {
+    width: 100%;
+    padding: 0.70em 0.25em;
+    background: none;
+    border: 1px solid #ccc;
+    margin: 0 0 5em 0;
+    border-radius: 4px;
+    display: block;
+  }
+  .page_language button {
+    padding: 0.70em 3em;
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
