@@ -1,0 +1,39 @@
+html, body {
+    background: linear-gradient(270deg, #bae141, #41e195, #418be1, #7641e1, #5ee141, #418e30, #8e4130);
+    background-size: 1400% 1400%;
+
+    -webkit-animation: BackgroundAnimation 30s ease infinite;
+    -moz-animation: BackgroundAnimation 30s ease infinite;
+    -o-animation: BackgroundAnimation 30s ease infinite;
+    animation: BackgroundAnimation 30s ease infinite;
+}
+
+@-webkit-keyframes BackgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes BackgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes BackgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes BackgroundAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.installer__wrapper {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(1rem);
+}
+.installer__container {
+    background: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(1rem);
+}
