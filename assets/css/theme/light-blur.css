@@ -1,3 +1,7 @@
+/**
+ * @ Link : https://www.gradient-animator.com/
+ */
+
 html, body {
     background: linear-gradient(270deg, #bae141, #41e195, #418be1, #7641e1, #5ee141, #418e30, #8e4130);
     background-size: 1400% 1400%;
@@ -37,3 +41,11 @@ html, body {
     background: rgba(255, 255, 255, 0.70);
     backdrop-filter: blur(1rem);
 }
+.page_language button {
+    background: linear-gradient(270deg, #246655, #26d5a8);
+    background-size: 400% 400%;
+    border-radius: 30px;
+    padding: 1rem 6rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
